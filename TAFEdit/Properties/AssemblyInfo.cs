@@ -12,7 +12,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Kernewek Software")]
 [assembly: AssemblyProduct("TAF Edit")]
-[assembly: AssemblyCopyright("Copyright © Trevalyan Stevens 2016")]
+[assembly: AssemblyCopyright("Copyright © 2016 Trevalyan Stevens")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
