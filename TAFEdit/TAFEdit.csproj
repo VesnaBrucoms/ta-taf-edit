@@ -56,6 +56,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="InputOutput\GafInputOutput.cs" />
+    <Compile Include="InputOutput\Serialization.cs" />
+    <Compile Include="Models\GafModel.cs" />
+    <Compile Include="Models\GafModelData\GafEntry.cs" />
+    <Compile Include="Models\GafModelData\GafFrameEntry.cs" />
+    <Compile Include="Models\GafModelData\GafHeader.cs" />
+    <Compile Include="Models\TafModel.cs" />
     <Compile Include="ViewModels\Commands\DelegateCommand.cs" />
     <Compile Include="ViewModels\Commands\DelegatePredicateCommand.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
@@ -110,8 +117,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Help\images\" />
-    <Folder Include="Models\" />
-    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\NewFile_16x.png" />
+    <Resource Include="Resources\OpenFolder_16x.png" />
+    <Resource Include="Resources\Save_16x.png" />
+    <Resource Include="Resources\StatusHelp_16x.png" />
+    <Resource Include="Resources\StatusWarning_32x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
