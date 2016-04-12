@@ -11,7 +11,6 @@ namespace TAFEdit.Models.GafModelData
         public int PtrFrameTable;
         public int Unknown; //Varies
 
-        public byte[] CompressedPixelData;
-        public byte[] RawPixelData; //8-bit
+        public GafFrameData FrameData;
     }
 }

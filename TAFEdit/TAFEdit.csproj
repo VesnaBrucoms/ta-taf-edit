@@ -60,6 +60,7 @@
     <Compile Include="InputOutput\Serialization.cs" />
     <Compile Include="Models\GafModel.cs" />
     <Compile Include="Models\GafModelData\GafEntry.cs" />
+    <Compile Include="Models\GafModelData\GafFrameData.cs" />
     <Compile Include="Models\GafModelData\GafFrameEntry.cs" />
     <Compile Include="Models\GafModelData\GafHeader.cs" />
     <Compile Include="Models\TafModel.cs" />
